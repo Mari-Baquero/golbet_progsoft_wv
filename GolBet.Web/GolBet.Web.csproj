@@ -1,6 +1,10 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <ItemGroup>
+    <Compile Remove="Views\Matches\Detail.cshtml.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\GolBet.Services\GolBet.Services.csproj" />
   </ItemGroup>
 
