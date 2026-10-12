@@ -2,6 +2,7 @@
 
   <ItemGroup>
     <Compile Remove="Views\Matches\Detail.cshtml.cs" />
+    <Compile Remove="Views\Matches\_MatchForm.cshtml.cs" />
   </ItemGroup>
 
   <ItemGroup>
